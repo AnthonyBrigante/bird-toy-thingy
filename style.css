@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fdf6e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.enter-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff6f61;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.enter-button:hover {
+  background-color: #e65c50;
+}
