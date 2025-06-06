@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fdf6e3;
+  background: linear-gradient(to bottom right, #ffecd2, #fcb69f); /* Soft orange gradient */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,20 +16,27 @@ body {
 .logo {
   width: 200px;
   height: auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .enter-button {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #ff6f61;
+  background-color: #ff6f00; /* bold orange */
   color: white;
   text-decoration: none;
   font-size: 18px;
   border-radius: 8px;
   transition: background-color 0.3s ease;
+  margin-top: 10px; /* closer to images */
 }
 
 .enter-button:hover {
-  background-color: #e65c50;
+  background-color: #e65100;
+}
+.big-logo {
+  max-height: 400px; /* or any height you like */
+    height: auto;
+  width: 350px;
+  max-width: 100%;
 }
