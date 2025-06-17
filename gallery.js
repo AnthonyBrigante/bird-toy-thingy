@@ -29,7 +29,7 @@ const products = [
   },
   {
     name: "Woodland Animal Friends",
-    price: 99.99,
+    price: 79.99,
     description: "Explore your wild side with our handcrafted animal toys!",
     details: "This collection features 10 different animals carved from walnut wood. Great for pretend play and storytime.",
     images: ["imgs/animal1.jpg", "imgs/animal2.jpg", "imgs/animal3.jpg", "imgs/animal4.jpg", "imgs/animal5.jpg"]
@@ -77,6 +77,7 @@ products.forEach((product, index) => {
         <div class="card-footer text-center bg-light">
           ${product.description} <br> $${product.price.toFixed(2)} <br>
           <button class="btn btn-sm btn-primary mt-2" data-index="${index}" data-bs-toggle="modal" data-bs-target="#detailsModal">Learn More</button>
+          <button class="btn btn-sm btn-success mt-2">Add to Cart</button>
         </div>
       </div>
     </div>

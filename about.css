@@ -1,0 +1,70 @@
+.nav-link {
+    color: #ffffff;
+    text-shadow: 3px 3px 0 black,
+        -1px 1px 0 black,
+        1px -1px 0 black,
+        -1px -1px 0 black,
+        0px 1px 0 black,
+        0px -1px 0 black,
+        -1px 0px 0 black,
+        1px 0px 0 black,
+        2px 2px 0 black,
+        -2px 2px 0 black,
+        2px -2px 0 black,
+        -2px -2px 0 black,
+        0px 2px 0 black,
+        0px -2px 0 black,
+        -2px 0px 0 black,
+        2px 0px 0 black,
+        1px 2px 0 black,
+        -1px 2px 0 black,
+        1px -2px 0 black,
+        -1px -2px 0 black,
+        2px 1px 0 black,
+        -2px 1px 0 black,
+        2px -1px 0 black,
+        -2px -1px 0 black;
+}
+
+
+.nav-link:hover {
+    color: #ff8383;
+}
+
+
+
+
+.nav-link:focus,
+.nav-link.active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(#ffecd2, #fcb69f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.card-title {
+    font-family: "sans-serif";
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+.card-text {
+    font-family: "comic-sans-ms", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navbar {
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.05);
+}

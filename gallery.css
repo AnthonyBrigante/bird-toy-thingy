@@ -14,20 +14,75 @@ h1, h2, h3 {
   color: #d35400;
 }
 
+.nav-link {
+    color: #ffffff;
+    text-shadow: 3px 3px 0 black,
+        -1px 1px 0 black,
+        1px -1px 0 black,
+        -1px -1px 0 black,
+        0px 1px 0 black,
+        0px -1px 0 black,
+        -1px 0px 0 black,
+        1px 0px 0 black,
+        2px 2px 0 black,
+        -2px 2px 0 black,
+        2px -2px 0 black,
+        -2px -2px 0 black,
+        0px 2px 0 black,
+        0px -2px 0 black,
+        -2px 0px 0 black,
+        2px 0px 0 black,
+        1px 2px 0 black,
+        -1px 2px 0 black,
+        1px -2px 0 black,
+        -1px -2px 0 black,
+        2px 1px 0 black,
+        -2px 1px 0 black,
+        2px -1px 0 black,
+        -2px -1px 0 black;
+}
+
+.thing {
+      text-shadow: 1px 1px 0 black,
+        -1px 1px 0 black,
+        1px -1px 0 black,
+        -1px -1px 0 black,
+        0px 1px 0 black,
+        0px -1px 0 black,
+        -1px 0px 0 black,
+        1px 0px 0 black,
+        2px 2px 0 black,
+        -2px 2px 0 black,
+        2px -2px 0 black,
+        -2px -2px 0 black,
+        0px 2px 0 black,
+        0px -2px 0 black,
+        -2px 0px 0 black,
+        2px 0px 0 black,
+        1px 2px 0 black,
+        -1px 2px 0 black,
+        1px -2px 0 black,
+        -1px -2px 0 black,
+        2px 1px 0 black,
+        -2px 1px 0 black,
+        2px -1px 0 black,
+        -2px -1px 0 black;
+}
+
+.nav-link:hover {
+    color: #ff8383;
+}
+
+
 .navbar {
-  background-color: #fcb69f;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
-.navbar .nav-link {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #5d2a1e !important;
-}
 
-.navbar .nav-link:hover {
-  text-decoration: underline;
-  color: #ff7043 !important;
+.nav-link:focus,
+.nav-link.active {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .card {
