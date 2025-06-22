@@ -77,7 +77,7 @@ products.forEach((product, index) => {
         <div class="card-footer text-center bg-light">
           ${product.description} <br> $${product.price.toFixed(2)} <br>
           <button class="btn btn-sm btn-primary mt-2" data-index="${index}" data-bs-toggle="modal" data-bs-target="#detailsModal">Learn More</button>
-          <button class="btn btn-sm btn-success mt-2">Add to Cart</button>
+          <button class="btn btn-sm btn-success mt-2" onclick="addItem()">Add to Cart</button>
         </div>
       </div>
     </div>
@@ -165,3 +165,16 @@ products.forEach((product, index) => {
   const cardFooter = card.querySelector(".card-footer");
   cardFooter.insertAdjacentHTML("beforeend", reviewsHtml);
 });
+
+let itemAmount = 0;
+
+function addItem() {
+  itemAmount++;
+  document.getElementById('itemCart').innerHTML = `Items in Cart: ${itemAmount}`;
+}
+
+function completeOrder() {
+  alert("Order Completed!");
+  location.reload();
+  let itemAmount = 0;
+}
