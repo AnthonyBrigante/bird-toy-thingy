@@ -3,86 +3,89 @@
   object-fit: cover;
   height: 280px;
 }
+
 body {
-  background-color: #fff6f2;
+  background-image: linear-gradient(#ffecd2, #fcb69f);
   font-family: "ff-tisa-web-pro", serif;
   padding-top: 2rem;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "futura-pt", sans-serif;
   color: #d35400;
 }
 
 .nav-link {
-    color: #ffffff;
-    text-shadow: 3px 3px 0 black,
-        -1px 1px 0 black,
-        1px -1px 0 black,
-        -1px -1px 0 black,
-        0px 1px 0 black,
-        0px -1px 0 black,
-        -1px 0px 0 black,
-        1px 0px 0 black,
-        2px 2px 0 black,
-        -2px 2px 0 black,
-        2px -2px 0 black,
-        -2px -2px 0 black,
-        0px 2px 0 black,
-        0px -2px 0 black,
-        -2px 0px 0 black,
-        2px 0px 0 black,
-        1px 2px 0 black,
-        -1px 2px 0 black,
-        1px -2px 0 black,
-        -1px -2px 0 black,
-        2px 1px 0 black,
-        -2px 1px 0 black,
-        2px -1px 0 black,
-        -2px -1px 0 black;
+  color: #ffffff;
+  text-shadow: 3px 3px 0 black,
+    -1px 1px 0 black,
+    1px -1px 0 black,
+    -1px -1px 0 black,
+    0px 1px 0 black,
+    0px -1px 0 black,
+    -1px 0px 0 black,
+    1px 0px 0 black,
+    2px 2px 0 black,
+    -2px 2px 0 black,
+    2px -2px 0 black,
+    -2px -2px 0 black,
+    0px 2px 0 black,
+    0px -2px 0 black,
+    -2px 0px 0 black,
+    2px 0px 0 black,
+    1px 2px 0 black,
+    -1px 2px 0 black,
+    1px -2px 0 black,
+    -1px -2px 0 black,
+    2px 1px 0 black,
+    -2px 1px 0 black,
+    2px -1px 0 black,
+    -2px -1px 0 black;
 }
 
 .thing {
-      text-shadow: 1px 1px 0 black,
-        -1px 1px 0 black,
-        1px -1px 0 black,
-        -1px -1px 0 black,
-        0px 1px 0 black,
-        0px -1px 0 black,
-        -1px 0px 0 black,
-        1px 0px 0 black,
-        2px 2px 0 black,
-        -2px 2px 0 black,
-        2px -2px 0 black,
-        -2px -2px 0 black,
-        0px 2px 0 black,
-        0px -2px 0 black,
-        -2px 0px 0 black,
-        2px 0px 0 black,
-        1px 2px 0 black,
-        -1px 2px 0 black,
-        1px -2px 0 black,
-        -1px -2px 0 black,
-        2px 1px 0 black,
-        -2px 1px 0 black,
-        2px -1px 0 black,
-        -2px -1px 0 black;
+  text-shadow: 1px 1px 0 black,
+    -1px 1px 0 black,
+    1px -1px 0 black,
+    -1px -1px 0 black,
+    0px 1px 0 black,
+    0px -1px 0 black,
+    -1px 0px 0 black,
+    1px 0px 0 black,
+    2px 2px 0 black,
+    -2px 2px 0 black,
+    2px -2px 0 black,
+    -2px -2px 0 black,
+    0px 2px 0 black,
+    0px -2px 0 black,
+    -2px 0px 0 black,
+    2px 0px 0 black,
+    1px 2px 0 black,
+    -1px 2px 0 black,
+    1px -2px 0 black,
+    -1px -2px 0 black,
+    2px 1px 0 black,
+    -2px 1px 0 black,
+    2px -1px 0 black,
+    -2px -1px 0 black;
 }
 
 .nav-link:hover {
-    color: #ff8383;
+  color: #ff8383;
 }
 
 
 .navbar {
-    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 
 .nav-link:focus,
 .nav-link.active {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .card {
@@ -134,7 +137,7 @@ h1, h2, h3 {
 }
 
 @media (min-width: 768px) {
-  .row > .col {
+  .row>.col {
     padding-left: 1rem;
     padding-right: 1rem;
   }

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom right, #ffecd2, #fcb69f); /* Soft orange gradient */
+  background-image: linear-gradient(#ffecd2, #fcb69f);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,21 +22,22 @@ body {
 .enter-button {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #ff6f00; /* bold orange */
+  background-color: #ff6f00;
   color: white;
   text-decoration: none;
   font-size: 18px;
   border-radius: 8px;
   transition: background-color 0.3s ease;
-  margin-top: 10px; /* closer to images */
+  margin-top: 10px;
 }
 
 .enter-button:hover {
   background-color: #e65100;
 }
+
 .big-logo {
-  max-height: 400px; /* or any height you like */
-    height: auto;
+  max-height: 400px;
+  height: auto;
   width: 350px;
   max-width: 100%;
 }
